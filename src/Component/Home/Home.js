@@ -1,19 +1,51 @@
 import React from 'react'
+import "./Home.css"
+import dp from "../../assets/DP2.png"
+import { Typewriter } from 'react-simple-typewriter'
 
 const Home = () => {
   return (
     <>
         <section className="hero" id="home">
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-6">
-                        <div className="card mt-5">
-                            <div className="card-header">
-                                <h1>Sarathy</h1>
+            <div className="container f_flex top">
+                <div className="left-top">
+                    <h1>
+                        Hi, I'm <span>Palani Selvam</span>
+                    </h1>
+                    <h2>A  
+                        <span> 
+                            <Typewriter
+                            words={[' FrontEnd Developer', ' Fullstack Developer']}
+                            loop
+                            cursor
+                            cursorStyle='|'
+                            typeSpeed={70}
+                            deleteSpeed={50}
+                            delaySpeed={1000}
+                            />
+                        </span> 
+                    </h2>
+                    <p> I am the person who loves turning ideas into cool websites. I specialize in making things look great on the front end and work seamlessly behind the scenes with smart, clean code. Let's bring your ideas to life! </p>
+                    <div className="hero_btn d_flex">
+                        <div className="col_1">
+                            <h4>Find Me</h4>
+                            <div className="button">
+                                <div className="btn_shadow">
+                                    <i className="uil uil-instagram-alt"></i>
+                                </div>
+                                <div className="btn_shadow">
+                                    <i class="uil uil-github"></i>
+                                </div>
+                                <div className="btn_shadow">
+                                    <i class="uil uil-linkedin"></i>
+                                </div>
                             </div>
-                            <div className="card-body">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure amet neque aut facilis in sequi. Quae numquam quis deserunt est.</p>
+                        </div>
+                        <div className="right">
+                            <div className="right_img">
+                                <img src={dp} alt="" />
                             </div>
+                           
                         </div>
                     </div>
                 </div>
