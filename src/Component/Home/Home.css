@@ -25,16 +25,17 @@
 .home h2 span{
     color: grey;
 }
-
+/* 
 .home p {
     color: #878e99;
     font-size: 18px;
     line-height: 30px;
     margin-top: 30px;
-}
+} */
 
 .home_btn{
-    margin-top: 20%;
+    margin-top: 10%;
+    margin-left: 20%;
 }
 
 .home_btn h4{
@@ -61,7 +62,7 @@
 }
 
 .home .left{
-    margin-right: 10%;
+    margin-left: 20%;
 }
 
 .home .right{
