@@ -71,6 +71,11 @@
     height: 500px;
     position: relative;
 }
+.right_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .home .right_img img{
     background: linear-gradient(145deg, lightgray, lightcyan);
@@ -93,9 +98,6 @@
     margin-top: 50px;
 }
 
-.container{
-    display: flex;
-}
 p{
     padding-right: 150px ;
     font-size: 18px;
