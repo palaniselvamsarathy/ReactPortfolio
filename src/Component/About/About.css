@@ -1,20 +1,27 @@
 section {
-    padding-top: 4vh;
-    height: 96vh;
-    margin: 0 10rem;
-    box-sizing: border-box;
-    min-height: fit-content;
-  }
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
 
-  .section-container {
-    display: flex;
-  }
+.section-container {
+  display: flex;
+}
 
-  #about{
-    position: relative;
-  }
+#about{
+  position: relative;
+}
 
-  .about-pic{
-    height: 350px;
-    width: 75%;
-  }
+.about-pic {
+  border-radius: 2rem;
+  height: 300px;
+  width: auto;
+}
+
+.text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
