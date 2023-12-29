@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import "./Header.css"
 import "./Navbar.css"
 import Darkmode from '../Dark/Darkmode'
 const Navbar= () => {

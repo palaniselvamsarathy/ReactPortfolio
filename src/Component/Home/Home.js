@@ -14,7 +14,7 @@ const Home = () => {
                         <h1>
                             Hi, I'm <span>Palani Selvam</span>
                         </h1>
-                        <h2>A  
+                        <h2> A  
                             <span> 
                                 <Typewriter
                                 words={[' FrontEnd Developer', ' Fullstack Developer']}
