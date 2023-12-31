@@ -7,7 +7,7 @@ import { Typewriter } from 'react-simple-typewriter'
 const Home = () => {
   return (
     <>
-        <section className="home">
+        {/* <section className="home">
             <div className="row">
                 <div className="col-lg-8 col-md-6 col-sm-12">
                     <div className="left top">
@@ -50,6 +50,12 @@ const Home = () => {
                         <img src={dp} alt="" />
                     </div>
                 </div>
+            </div>
+        </section> */}
+        <section className="home">
+            <div className="row">
+                <div className="col"></div>
+                <div className="col"></div>
             </div>
         </section>
     </>

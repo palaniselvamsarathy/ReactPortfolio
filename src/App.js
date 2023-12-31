@@ -2,7 +2,7 @@ import React from 'react'
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
 import Navbar from './Component/Navbar/Navbar'
 import Home from './Component/Home/Home'
-import About from '../backup/About/About'
+// import About from '../backup/About/About'
 
 const App = () => {
   return (
@@ -11,10 +11,10 @@ const App = () => {
         <Navbar/>
         <Routes>
           <Route path="/home" element={<Home/>}/>
-          <Route path="/about" element={<About/>}/>     
+          {/* <Route path="/about" element={<About/>}/>      */}
         </Routes> 
         <Home/>
-        <About/>
+        {/* <About/> */}
       </Router>
       
     </div>
