@@ -4,17 +4,21 @@ import Navbar from './Component/Navbar/Navbar'
 import Home from './Component/Home/Home'
 // import About from '../backup/About/About'
 
+import About from './Component/About/About'
+
 const App = () => {
   return (
     <div>
       <Router>
         <Navbar/>
         <Routes>
-          <Route path="/home" element={<Home/>}/>
+          <Route path="../home" element={<Home/>}/>
           {/* <Route path="/about" element={<About/>}/>      */}
+          <Route path='/about' element={<About/>}/>
         </Routes> 
         <Home/>
-        {/* <About/> */}
+        
+        <About/>
       </Router>
       
     </div>
