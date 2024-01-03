@@ -52,6 +52,7 @@ const Home = () => {
                 </div>
             </div>
         </section> */}
+        
         <section className="home">
             <div className="row">
                 <div className="col-lg-8 col-md-6 col-sm-12">
