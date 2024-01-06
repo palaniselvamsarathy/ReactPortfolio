@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Component/Navbar/Navbar'
+import {BrowserRouter as } from 'react-router-dom'
 const App = () => {
   return (
     <div>
