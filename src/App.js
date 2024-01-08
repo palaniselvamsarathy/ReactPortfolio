@@ -1,10 +1,11 @@
 import React from 'react'
-import Navbar from './Component/Navbar/Navbar'
+import "./App.css"
+import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
+import Home from './Pages/Home/HomeScreen'
 const App = () => {
   return (
-    <div>
-      <h1>App Component</h1>
-      <Navbar/>
+    <div className='App'>
+      <Home/>
     </div>
   )
 }
