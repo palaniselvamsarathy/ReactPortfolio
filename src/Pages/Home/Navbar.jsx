@@ -33,7 +33,7 @@ function Navbar() {
     <div>
       <nav className={`navbar ${navActice ? "active":""}`}>
         <div>
-          <img src="./img/two.png" alt="My Logo" className='logo-img'/>
+          <img src="./img/logo.png" alt="My Logo" className='logo-img'/>
           {/* <Link 
           onClick={closeMenu} 
           activeClass="navbar-active-content" 
