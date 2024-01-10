@@ -11,7 +11,7 @@ function HeroSection() {
                     <span className='hero-section-title-color'>
                         Full Stack
                     </span>{" "}
-                    <br />
+                    <br /> 
                     Developer
                 </h1>
                 <p className='hero-section-description'>

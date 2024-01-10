@@ -12,7 +12,7 @@ function Navbar() {
   useEffect(()=>{
     const handleResize =()=>{
       if (window.innerWidth <= 500){
-        closeMenu()
+        closeMenu();
       }
     }
 
@@ -33,8 +33,90 @@ function Navbar() {
     <div>
       <nav className={`navbar ${navActice ? "active":""}`}>
         <div>
-          <img src="./img/main.png" alt="My Logo" />
+          <img src="./img/two.png" alt="My Logo" className='logo-img'/>
+          {/* <Link 
+          onClick={closeMenu} 
+          activeClass="navbar-active-content" 
+          spy={true} 
+          smooth={true} 
+          offset={-70}
+          duration = {500}
+          to="/"
+          className='navbar-content'
+          >
+            <h2>Palani Selvam</h2>
+          </Link> */}
         </div>
+        <a className={`nav_hamburger ${navActice ? "active":""}`} onClick={toggleNav}>
+          <span className='nav_hamburger_line'></span>
+          <span className='nav_hamburger_line'></span>
+          <span className='nav_hamburger_line'></span>
+        </a>
+        <div className={`navbar-items ${navActice ? "active":""}`}>
+          <ul>
+            <li>
+              <Link 
+                onClick={closeMenu} 
+                activeClass="navbar-active-content" 
+                spy={true} 
+                smooth={true} 
+                offset={-70}
+                duration = {500}
+                to="/"
+                className='navbar-content'
+              > Home </Link>
+            </li>
+
+            <li>
+              <Link 
+                onClick={closeMenu} 
+                activeClass="navbar-active-content" 
+                spy={true} 
+                smooth={true} 
+                offset={-70}
+                duration = {500}
+                to="MyPortolio"
+                className='navbar-content'
+              > Portfolio </Link>
+            </li>
+
+            <li>
+              <Link 
+                onClick={closeMenu} 
+                activeClass="navbar-active-content" 
+                spy={true} 
+                smooth={true} 
+                offset={-70}
+                duration = {500}
+                to="AboutMe"
+                className='navbar-content'
+              > About Me </Link>
+            </li>
+
+            <li>
+              <Link 
+                onClick={closeMenu} 
+                activeClass="navbar-active-content" 
+                spy={true} 
+                smooth={true} 
+                offset={-70}
+                duration = {500}
+                to="MySKills"
+                className='navbar-content'
+              > Skills </Link>
+            </li>
+          </ul>
+        </div>
+          <Link 
+            onClick={closeMenu} 
+            activeClass="navbar-active-content" 
+            spy={true} 
+            smooth={true} 
+            offset={-70}
+            duration = {500}
+            to="ContactMe"
+            className='btn btn-outline-primary'
+          > Contact Me </Link>
       </nav>
     </div>
   )
