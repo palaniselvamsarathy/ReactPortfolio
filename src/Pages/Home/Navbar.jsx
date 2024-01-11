@@ -89,7 +89,7 @@ function Navbar() {
                 smooth={true} 
                 offset={-70}
                 duration = {500}
-                to="MySKills"
+                to="MySkills"
                 className='navbar-content'
               > Skills </Link>
             </li>
