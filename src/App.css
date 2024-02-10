@@ -373,3 +373,23 @@ h3{
     line-height: 32px;
     text-align: justify;
 }
+
+/* About Me Section */
+.about-section{
+    display: grid;
+    padding: 10.3px 85.3px;
+    align-items: center;
+    gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.about-section-img{
+    width: 70%;
+    height: 80%;
+}
+
+.about-section-img img{
+    width: 100%;
+    height: 115%;
+}
+/* About Me ends */
