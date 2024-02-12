@@ -38,14 +38,14 @@ function MyPortfolio() {
             <div className='portfolio-section-card-content'>
               <div>
                 <h3 className="portfolio-section-title">
-                  {/* {item.title} */}Yes
+                  {item.title}
                 </h3>
                 <p className="text-md">
-                  {/* {item.description} */}HEy
+                  {item.description}
                 </p>
-              </div>
+              </div>3
               <p className="text-sm portfolio--link">
-                {/* {item.link} */}Something
+                {item.link}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"

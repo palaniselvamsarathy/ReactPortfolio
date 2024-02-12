@@ -19,5 +19,26 @@
             "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum."
         }
         
+    ],
+    "portfolio":[
+        {
+            "id":"1",
+            "src":"./img/product-chain-1.png",
+            "title":"Front-End Development",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum."
+        },
+        {
+            "id":"2",
+            "src":"./img/tag-1.png",
+            "title":"Back-End Development",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum."
+        },
+        {
+            "id":"3",
+            "src":"./img/feather-pen-2.png",
+            "title":" Full Stack Development",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum."
+        }
+        
     ]
 }
