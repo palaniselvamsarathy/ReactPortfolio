@@ -30,21 +30,17 @@ function MyPortfolio() {
         </div>
       </div>
       <div className="portfolio-section-container">
-        {data?.portfolio?.map((item,index)=>{
-          <div key={index} className='portfolio-section-card'>
-            <div className='portfolio-section-img'>
-              <img src={item.img} alt="Placeholder" />
+        {data?.portfolio?.map((item, index) => (
+          <div key={index} className="portfolio-section-card">
+            <div className="portfolio-section-img">
+              <img src={item.src} alt="Placeholder" />
             </div>
-            <div className='portfolio-section-card-content'>
+            <div className="portfolio-section-card-content">
               <div>
-                <h3 className="portfolio-section-title">
-                  {item.title}
-                </h3>
-                <p className="text-md">
-                  {item.description}
-                </p>
-              </div>3
-              <p className="text-sm portfolio--link">
+                <h3 className="portfolio-section-title">{item.title}</h3>
+                <p className="text-md">{item.description}</p>
+              </div>
+              <p className="text-sm portfolio-link">
                 {item.link}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +60,7 @@ function MyPortfolio() {
               </p>
             </div>
           </div>
-        })}
+        ))}
       </div>
     </section>
   )
