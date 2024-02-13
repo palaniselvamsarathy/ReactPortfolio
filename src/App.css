@@ -395,3 +395,54 @@ h3{
 /* About Me ends */
 
 /* My Portfolio session Starts */
+.portfolio-section{
+    display: flex;
+    padding: 112px 85px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.portfolio-container-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21.3px;
+}
+
+.portfolio-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 42.6px;
+    gap: 21.3px;
+}
+
+.portfolio-section-img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.portfolio-section-img > img{
+    /* width: 100%; */
+}
+
+.portfolio-section-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+    background: #fff;
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15) ;
+    cursor: pointer;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}

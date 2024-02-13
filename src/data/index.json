@@ -23,20 +23,20 @@
     "portfolio":[
         {
             "id":"1",
-            "src":"./img/product-chain-1.png",
-            "title":"Front-End Development",
+            "src":"./img/project-1.png",
+            "title":"Personal Portfolio",
             "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum."
         },
         {
             "id":"2",
-            "src":"./img/tag-1.png",
-            "title":"Back-End Development",
+            "src":"./img/project-2.png",
+            "title":"E-Commerce Website",
             "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum."
         },
         {
             "id":"3",
-            "src":"./img/feather-pen-2.png",
-            "title":" Full Stack Development",
+            "src":"./img/project-3.png",
+            "title":"Income Expense Tracker",
             "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum."
         }
         
