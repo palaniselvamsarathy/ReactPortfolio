@@ -25,19 +25,22 @@
             "id":"1",
             "src":"./img/project-1.png",
             "title":"Personal Portfolio",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum."
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum.",
+            "link":"View in Github"
         },
         {
             "id":"2",
             "src":"./img/project-2.png",
             "title":"E-Commerce Website",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum."
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum.",
+            "link":"View in Github"
         },
         {
             "id":"3",
             "src":"./img/project-3.png",
             "title":"Income Expense Tracker",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum."
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum.",
+            "link":"View in Github"
         }
         
     ]
