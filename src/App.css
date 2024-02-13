@@ -258,7 +258,7 @@ h3{
     /* border: 2px solid black; */
     /* box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5); */
     /* opacity: 0.7; */
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 /* ------------ Hero Section Image Ends--------- */
 /* ----- Hero Section Ends----- */
@@ -484,3 +484,10 @@ h3{
 .portfolio-section-card{
     stroke: #006b6a;
 }
+
+/* Contact Starts */
+
+
+
+
+/* Contact Ends */
