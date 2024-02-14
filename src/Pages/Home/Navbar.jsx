@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import {Link} from 'react-router-dom'
+import {Link} from 'react-scroll'
 
 function Navbar() {
   const [navActice,setNavActive] = useState(false);
@@ -50,7 +50,7 @@ function Navbar() {
                 smooth={true} 
                 offset={-70}
                 duration = {500}
-                to="/"
+                to="heroSection"
                 className='navbar-content'
               > Home </Link>
             </li>
@@ -63,7 +63,7 @@ function Navbar() {
                 smooth={true} 
                 offset={-70}
                 duration = {500}
-                to="MyPortolio"
+                to="MyPortfolio"
                 className='navbar-content'
               > Portfolio </Link>
             </li>
@@ -89,7 +89,7 @@ function Navbar() {
                 smooth={true} 
                 offset={-70}
                 duration = {500}
-                to="MySkills"
+                to="mySkills"
                 className='navbar-content'
               > Skills </Link>
             </li>
@@ -102,7 +102,7 @@ function Navbar() {
             smooth={true} 
             offset={-70}
             duration = {500}
-            to="ContactMe"
+            to="Contact"
             className='btn btn-outline-primary'
           > Contact Me </Link>
       </nav>

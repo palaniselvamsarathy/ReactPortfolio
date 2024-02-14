@@ -22,7 +22,7 @@ function HeroSection() {
             </div>
             <button className='btn btn-primary'>Get In Touch</button>
         </div>
-        <div className='hero-section-image'>
+        <div className='hero-section-img'>
             <img src="./img/DP2.png" className='circular' alt="Hero Section Profile Picture" />
         </div>
       </section>
