@@ -31,9 +31,3 @@ function MySkills() {
 }
 
 export default MySkills
-// {
-//     "id":"4",
-//     "src":"./img/feather-pen-1.png",
-//     "title":"Web Development",
-//     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum."
-// }
