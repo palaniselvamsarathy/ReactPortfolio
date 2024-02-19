@@ -773,3 +773,19 @@ input[type="checkbox"]{
 }
   
 /* Responsive Screens Ends*/
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+    /* background-color: var(--primary); */
+}
+.icon {
+    cursor: pointer;
+    height: 2rem;
+    /* background-color: var(--primary); */
+    /* display: flex;
+    flex-direction: column;
+    row-gap: 10px; */
+    /* column-gap: 20px; */
+}
