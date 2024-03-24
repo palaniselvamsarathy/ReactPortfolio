@@ -27,6 +27,7 @@ function ContactMe() {
                     <input type="number" className="contact-input text-md" name="phone-number" id="phone-number" required />
                 </label>
             </div>
+            
             <label htmlFor="choose-topic" className="contact-label">
                 <span className="text-md">Choose a topic</span>
                 <select id="choose-topic" className="contact-input text-md">
