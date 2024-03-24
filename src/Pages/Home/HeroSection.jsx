@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-scroll'
 function HeroSection() {
   return (
     <>
@@ -26,7 +26,17 @@ function HeroSection() {
                   </a>
                 </div>
             </div>
-            <button className='btn btn-primary'>Get In Touch</button>
+            <button className='btn btn-primary'>
+            <Link 
+              // onClick={closeMenu} 
+              activeClass="navbar-active-content" 
+              spy={true} 
+              smooth={true} 
+              offset={-70}
+              duration = {500}
+              to="Contact"
+          >Get In Touch</Link></button>
+          
         </div>
         <div className='hero-section-img'>
             <img src="./img/DP2.png" className='circular' alt="Hero Section Profile Picture" />

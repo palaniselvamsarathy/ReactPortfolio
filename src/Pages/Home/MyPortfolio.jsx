@@ -10,7 +10,14 @@ function MyPortfolio() {
           <h2 className='section-heading'>My Portfolio</h2>
         </div>
         <div>
+        
           <button className="btn btn-github">
+          <a
+                href="https://github.com/palaniselvamsarathy"
+                className="portfolio-github"
+                target="_blank"
+                rel="noreferrer"
+          >
           <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -25,8 +32,11 @@ function MyPortfolio() {
                 fill="currentColor"
               />
             </svg>
+
             Visit My Github
+            </a>
           </button>
+          
         </div>
       </div>
       <div className="portfolio-section-container">

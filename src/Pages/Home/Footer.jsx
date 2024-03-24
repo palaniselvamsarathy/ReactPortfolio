@@ -8,7 +8,7 @@ function Footer() {
         <div>
           <img src="./img/logo.png" className="logo-img" alt="Logoipsum" />
         </div>
-        <div className="footer-items">
+        <div className="footer-items nav-link-items">
           <ul>
             <li>
               <Link
